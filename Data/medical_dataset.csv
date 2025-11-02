@@ -1,0 +1,155 @@
+age,weight,blood_pressure,glucose_level,insulin_level,smoking_habit,symptom_1,symptom_2,symptom_3,SystolicBP,DiastolicBP,heart_rate,SpO2,temperature,sleep_quality,sleep_duration,activity_steps,activity_calories,respiratory_rate,stress_level,disease
+68,72,140/90,190,30,yes,memory_loss,confusion,disorientation,140,90,83.0,95.0,37.4,good,7.5,5013.0,3178.0,19.0,moderate,Alzheimer’s
+54,80,135/85,105,20,no,tremors,stiff_muscles,speech_issue,135,85,67.0,97.0,36.6,good,7.8,5778.0,3394.0,15.0,low,Parkinson’s
+36,65,125/80,180,22,yes,blurred_vision,fatigue,frequent_urination,125,80,66.0,99.0,36.3,fair,6.8,5013.0,1727.0,13.0,low,Diabetes
+29,60,118/76,95,10,no,joint_pain,rash,fever,118,76,66.0,97.0,37.5,fair,6.0,7675.0,2909.0,21.0,low,Lupus
+41,70,130/82,100,18,yes,headache,dizziness,nausea,130,82,91.0,98.0,38.3,fair,7.3,7675.0,1871.0,20.0,moderate,Migraine
+62,85,150/95,170,40,yes,numbness,muscle_weakness,speech_difficulty,150,95,85.0,93.0,36.9,poor,8.0,11600.0,3463.0,16.0,low,Stroke
+33,68,120/80,110,16,no,restlessness,anxiety,insomnia,120,80,96.0,99.0,36.6,fair,10.6,4949.0,1205.0,23.0,low,General Anxiety
+70,74,145/92,160,28,yes,memory_loss,depression,confusion,145,92,90.0,93.0,36.6,good,6.4,9645.0,1435.0,19.0,high,Alzheimer’s
+48,82,142/90,150,35,yes,chest_pain,shortness_breath,fatigue,142,90,74.0,93.0,38.8,good,6.5,9645.0,2801.0,16.0,high,Cardiovascular Disease
+25,55,110/70,92,15,no,joint_pain,skin_rash,hair_loss,110,70,79.0,98.0,37.1,fair,6.4,11026.0,1871.0,19.0,high,Lupus
+59,78,138/89,195,50,yes,blurred_vision,thirst,fatigue,138,89,74.0,94.0,37.3,fair,7.3,5048.0,1876.0,16.0,low,Diabetes
+44,77,132/84,102,21,no,headache,nausea,sensitivity_light,132,84,96.0,99.0,35.7,good,7.6,8836.0,3394.0,16.0,moderate,Migraine
+64,83,144/91,108,22,yes,tremors,slowed_movement,balance_issues,144,91,89.0,95.0,36.3,fair,5.2,4949.0,1876.0,19.0,high,Parkinson’s
+38,75,128/80,118,24,no,neck_stiffness,fever,vomiting,128,80,70.0,98.0,37.7,good,8.4,1548.0,1705.0,16.0,high,Meningitis
+53,79,134/86,120,26,yes,headache,blurred_vision,light_sensitivity,134,86,107.0,98.0,36.6,fair,5.9,11600.0,1730.0,21.0,high,Migraine
+60,81,145/93,185,37,yes,numbness,slurred_speech,paralysis,145,93,96.0,98.0,37.5,good,8.1,4388.0,1871.0,12.0,high,Stroke
+27,62,118/76,105,18,no,fatigue,joint_pain,weight_loss,118,76,83.0,98.0,37.3,good,6.9,7818.0,1888.0,20.0,high,Lupus
+35,67,122/78,130,20,no,excessive_thirst,urination,blurred_vision,122,78,86.0,97.0,38.8,poor,6.0,11600.0,1435.0,15.0,moderate,Diabetes
+66,76,140/88,100,19,yes,tremors,speech_issues,muscle_stiffness,140,88,96.0,99.0,38.3,good,8.4,3895.0,1871.0,21.0,high,Parkinson’s
+39,69,125/80,115,21,no,headache,sensitivity_sound,vomiting,125,80,79.0,97.0,35.7,fair,8.0,7675.0,3394.0,12.0,high,Migraine
+47,73,132/84,135,23,yes,shortness_breath,chest_tightness,fatigue,132,84,61.0,97.0,37.7,fair,6.6,3695.0,1876.0,14.0,low,Cardiovascular Disease
+58,86,148/96,200,45,yes,dizziness,numbness,loss_consciousness,148,96,96.0,97.0,38.8,good,6.6,8623.0,2820.0,19.0,high,Stroke
+61,78,137/90,165,36,yes,frequent_urination,blurred_vision,weight_loss,137,90,87.0,94.0,37.7,fair,5.9,5013.0,3178.0,23.0,high,Diabetes
+42,74,126/83,108,19,no,restlessness,anxiety,irritability,126,83,92.0,97.0,35.7,fair,8.0,4949.0,1205.0,12.0,high,General Anxiety
+69,71,141/91,125,25,yes,memory_loss,apathy,forgetfulness,141,91,108.0,93.0,35.7,fair,7.6,9782.0,1205.0,23.0,high,Alzheimer’s
+32,66,121/79,97,12,no,fever,neck_pain,confusion,121,79,64.0,97.0,36.7,fair,5.2,6394.0,1334.0,13.0,low,Meningitis
+55,80,133/85,140,30,yes,thirst,fatigue,blurred_vision,133,85,71.0,97.0,36.8,fair,7.3,5778.0,3178.0,12.0,high,Diabetes
+46,76,129/82,110,17,no,headaches,vision_loss,eye_pain,129,82,71.0,96.0,35.8,fair,7.3,8435.0,2909.0,12.0,moderate,Migraine
+50,82,143/92,155,34,yes,chest_pain,dizziness,breathing_diff,143,92,83.0,96.0,36.5,poor,8.1,3652.0,1888.0,16.0,high,Cardiovascular Disease
+26,59,115/72,90,10,no,joint_pain,fatigue,swelling,115,72,91.0,92.0,37.2,good,6.8,1548.0,1442.0,12.0,moderate,Lupus
+63,84,146/94,172,38,yes,tremors,rigidity,balance_issue,146,94,79.0,99.0,37.5,good,7.6,3895.0,2354.0,13.0,low,Parkinson’s
+59,87,146/85,165,45,no,tremors,dizziness,eye_pain,146,85,96.0,98.0,36.3,fair,5.6,8836.0,1727.0,21.0,low,Parkinson's
+45,79,135/85,160,33,yes,chest_pain,breath_shortness,dizziness,135,85,92.0,94.0,36.6,fair,7.6,3895.0,1231.0,23.0,low,Cardiovascular Disease
+31,68,122/80,110,19,no,fever,rash,fatigue,122,80,83.0,93.0,38.8,good,6.5,11600.0,3394.0,23.0,moderate,Lupus
+56,82,144/92,170,39,yes,tremors,slow_movement,speech_difficulty,144,92,61.0,96.0,37.5,good,6.5,5778.0,1205.0,14.0,moderate,Parkinson’s
+37,74,125/78,98,15,no,insomnia,restlessness,irritability,125,78,90.0,97.0,37.5,fair,6.3,11409.0,1227.0,13.0,high,General Anxiety
+68,77,142/90,190,44,yes,vision_blur,excessive_thirst,urination,142,90,90.0,93.0,38.4,fair,6.4,3395.0,1442.0,14.0,low,Diabetes
+59,85,148/95,178,35,yes,chest_tightness,breath_shortness,nausea,148,95,86.0,97.0,36.6,good,6.0,5013.0,1705.0,16.0,high,Cardiovascular Disease
+40,70,130/82,105,20,no,fatigue,joint_pain,rash,130,82,71.0,92.0,37.3,poor,6.4,9645.0,1647.0,16.0,moderate,Lupus
+72,76,150/98,165,38,yes,tremors,speech_issue,muscle_rigidity,150,98,83.0,99.0,37.3,good,5.6,7449.0,1873.0,12.0,moderate,Parkinson’s
+28,63,118/76,100,17,no,anxiety,rapid_heartbeat,sweating,118,76,61.0,97.0,37.4,fair,7.8,11026.0,1730.0,12.0,high,General Anxiety
+49,78,139/88,140,29,yes,confusion,memory_loss,depression,139,88,79.0,96.0,37.4,poor,6.6,5778.0,1729.0,13.0,high,Alzheimer’s
+33,66,120/80,112,18,no,headache,sensitivity_light,vomiting,120,80,74.0,98.0,37.4,fair,6.5,8623.0,1618.0,21.0,moderate,Migraine
+53,81,143/91,175,42,yes,numbness,speech_difficulty,arm_weakness,143,91,61.0,95.0,36.5,fair,9.8,8623.0,3178.0,21.0,low,Stroke
+61,80,138/89,185,40,yes,excessive_thirst,fatigue,blurry_vision,138,89,96.0,95.0,35.8,good,6.6,11026.0,1730.0,22.0,low,Diabetes
+42,75,129/82,115,22,no,chest_pain,dizziness,fatigue,129,82,74.0,92.0,37.2,good,7.3,10043.0,1729.0,14.0,low,Cardiovascular Disease
+35,72,126/80,102,18,no,tremors,stiff_muscles,trouble_walking,126,80,83.0,94.0,35.8,fair,7.5,1548.0,1730.0,21.0,low,Parkinson’s
+66,83,146/93,188,45,yes,memory_loss,confusion,word_loss,146,93,71.0,98.0,36.9,good,6.3,3319.0,3050.0,22.0,moderate,Alzheimer’s
+38,70,127/79,98,16,no,neck_stiffness,fever,vomiting,127,79,90.0,95.0,36.5,good,6.3,11600.0,2118.0,23.0,high,Meningitis
+57,79,134/86,125,28,yes,speech_difficulty,numbness,drooping_face,134,86,86.0,95.0,37.3,fair,7.8,5240.0,1730.0,21.0,low,Stroke
+43,76,131/83,108,20,no,anxiety,restlessness,insomnia,131,83,66.0,96.0,37.5,poor,7.3,7449.0,2801.0,16.0,low,General Anxiety
+70,75,145/92,165,35,yes,memory_loss,forgetfulness,confusion,145,92,87.0,98.0,37.4,poor,8.4,8435.0,1782.0,22.0,high,Alzheimer’s
+30,60,117/75,95,14,no,fever,rash,fatigue,117,75,104.0,97.0,37.4,poor,6.9,3652.0,1727.0,13.0,low,Lupus
+62,84,147/94,195,48,yes,blurred_vision,excessive_thirst,frequent_urination,147,94,108.0,98.0,37.7,poor,5.6,5048.0,2118.0,23.0,moderate,Diabetes
+36,73,124/78,99,15,no,neck_pain,fever,sensitivity_light,124,78,90.0,97.0,37.5,poor,8.4,4388.0,1888.0,13.0,high,Meningitis
+48,80,132/84,120,24,yes,fatigue,dizziness,pressure_chest,132,84,72.0,97.0,36.7,fair,8.4,1548.0,1782.0,22.0,high,Cardiovascular Disease
+52,77,133/85,170,36,yes,tremors,slow_movement,speech_difficulty,133,85,93.0,97.0,36.8,fair,2.9,8623.0,2801.0,23.0,high,Parkinson’s
+39,69,123/80,100,17,no,headaches,vision_blur,light_sensitivity,123,80,61.0,96.0,37.4,fair,8.0,3695.0,3178.0,16.0,high,Migraine
+67,82,144/92,185,41,yes,numbness,vision_blur,memory_loss,144,92,89.0,98.0,37.4,poor,2.9,4949.0,3178.0,22.0,low,Stroke
+44,71,128/80,106,21,no,confusion,depression,apathy,128,80,107.0,97.0,37.7,good,7.5,3395.0,1705.0,15.0,high,Alzheimer’s
+34,65,119/77,103,19,no,neck_stiffness,light_sensitivity,nausea,119,77,71.0,96.0,37.7,good,6.3,8623.0,2354.0,21.0,high,Meningitis
+55,79,136/87,150,32,yes,chest_pain,fatigue,breath_shortness,136,87,70.0,98.0,36.8,fair,7.5,4388.0,1307.0,16.0,high,Cardiovascular Disease
+41,68,126/79,110,20,no,blurred_vision,fatigue,thirst,126,79,64.0,97.0,36.6,fair,6.4,5240.0,2820.0,15.0,high,Diabetes
+60,80,139/90,175,38,yes,tremors,slow_response,balance_issues,139,90,71.0,97.0,37.5,fair,6.2,5013.0,1705.0,13.0,low,Parkinson’s
+29,62,115/72,98,15,no,fever,rash,joint_pain,115,72,96.0,99.0,38.1,good,7.1,9782.0,1618.0,21.0,high,Lupus
+65,85,148/95,190,43,yes,memory_loss,disorientation,trouble_speaking,148,95,104.0,97.0,38.1,fair,6.9,11600.0,1871.0,16.0,moderate,Alzheimer’s
+46,72,131/82,120,26,yes,fatigue,light_sensitivity,vomiting,131,82,71.0,97.0,37.4,good,6.5,11409.0,1227.0,23.0,low,Migraine
+54,78,140/88,180,40,yes,slurred_speech,paralysis,confusion,140,88,61.0,96.0,36.5,good,2.9,6394.0,2118.0,16.0,low,Stroke
+37,66,120/78,105,19,no,anxiety,insomnia,palpitations,120,78,92.0,93.0,36.9,fair,6.9,11026.0,1705.0,15.0,high,General Anxiety
+69,74,143/91,170,39,yes,tremors,stiff_muscles,balance_issues,143,91,90.0,97.0,37.7,fair,6.3,11026.0,3394.0,15.0,moderate,Parkinson’s
+50,77,135/85,115,23,no,chest_pain,dizziness,breath_shortness,135,85,90.0,97.0,37.7,good,5.2,7818.0,2158.0,15.0,high,Cardiovascular Disease
+43,70,129/81,110,20,no,fever,vomiting,stiff_neck,129,81,61.0,97.0,37.3,good,5.9,4388.0,2356.0,21.0,high,Meningitis
+58,83,145/93,185,41,yes,speech_difficulty,memory_loss,one_side_weakness,145,93,96.0,96.0,37.7,good,6.6,7675.0,1730.0,21.0,moderate,Stroke
+32,64,121/79,99,17,no,rash,joint_pain,fatigue,121,79,71.0,96.0,37.3,poor,6.2,7675.0,1513.0,22.0,low,Lupus
+51,79,137/88,125,29,yes,excessive_thirst,blurred_vision,frequent_urination,137,88,71.0,94.0,38.4,fair,7.3,7675.0,1334.0,16.0,moderate,Diabetes
+36,68,123/80,105,19,no,headache,light_sensitivity,nausea,123,80,61.0,97.0,38.8,good,8.0,3652.0,1618.0,12.0,moderate,Migraine
+70,82,147/94,195,45,yes,memory_loss,confusion,language_difficulty,147,94,87.0,93.0,36.9,fair,9.8,8435.0,1231.0,15.0,high,Alzheimer’s
+47,75,134/86,140,30,yes,chest_tightness,dizziness,fatigue,134,86,96.0,98.0,38.8,good,7.6,5013.0,1618.0,21.0,moderate,Cardiovascular Disease
+63,81,146/92,180,40,yes,tremors,slow_movement,depression,146,92,87.0,98.0,36.6,fair,3.7,8623.0,1231.0,22.0,low,Parkinson’s
+39,67,127/79,104,18,no,anxiety,insomnia,fatigue,127,79,83.0,97.0,38.3,good,6.6,11026.0,1871.0,16.0,low,General Anxiety
+26,61,116/74,96,15,no,fever,rash,fatigue,116,74,83.0,92.0,35.8,good,7.1,9645.0,3178.0,23.0,low,Lupus
+68,85,149/95,190,44,yes,speech_difficulty,numbness,confusion,149,95,107.0,92.0,36.9,fair,6.5,7818.0,2354.0,13.0,high,Stroke
+61,100,123/90,93,34,yes,fever,chills,sweating,123,90,108.0,99.0,36.8,good,7.3,7861.0,1705.0,15.0,high,Fever
+69,81,123/69,171,12,yes,fever,chills,sweating,123,69,108.0,97.0,36.6,fair,6.5,5089.0,1513.0,16.0,moderate,Fever
+27,107,104/65,119,29,yes,fever,chills,sweating,104,65,70.0,99.0,36.9,good,6.0,1548.0,1873.0,21.0,high,Fever
+20,69,123/95,178,35,yes,abdominal_pain,nausea,diarrhea,123,95,66.0,98.0,37.4,fair,8.0,8131.0,1730.0,12.0,moderate,Gastrointestinal Disease
+69,78,145/68,94,31,yes,abdominal_pain,nausea,diarrhea,145,68,85.0,98.0,38.8,good,7.3,9645.0,1435.0,13.0,high,Gastrointestinal Disease
+24,79,100/73,75,5,yes,abdominal_pain,nausea,diarrhea,100,73,71.0,97.0,37.7,fair,5.9,5013.0,1618.0,21.0,high,Gastrointestinal Disease
+26,55,143/60,114,44,yes,cough,sore_throat,shortness_breath,143,60,96.0,98.0,37.0,good,6.3,3652.0,2820.0,15.0,low,Respiratory Infection
+26,45,124/76,186,14,no,cough,sore_throat,shortness_breath,124,76,72.0,92.0,36.5,good,8.4,3695.0,1647.0,15.0,low,Respiratory Infection
+77,107,112/70,76,21,yes,cough,sore_throat,shortness_breath,112,70,93.0,98.0,37.3,poor,6.3,3319.0,3463.0,21.0,moderate,Respiratory Infection
+44,53,120/83,123,35,no,fever,fatigue,body_ache,120,83,104.0,96.0,35.8,good,7.5,4892.0,1334.0,21.0,moderate,Viral Infection
+41,63,144/71,92,11,yes,fever,fatigue,body_ache,144,71,90.0,92.0,37.1,fair,8.1,3895.0,2158.0,23.0,high,Viral Infection
+35,57,115/84,148,50,yes,fever,fatigue,body_ache,115,84,70.0,94.0,36.6,good,2.9,5778.0,1442.0,20.0,high,Viral Infection
+42,68,117/81,145,23,yes,fever,swelling,pain,117,81,67.0,98.0,36.8,poor,6.5,3395.0,1727.0,23.0,high,Bacterial Infection
+48,60,115/81,169,41,yes,fever,swelling,pain,115,81,71.0,97.0,36.6,good,6.6,2508.0,1888.0,15.0,moderate,Bacterial Infection
+26,76,124/63,142,50,no,fever,swelling,pain,124,63,61.0,97.0,37.4,good,6.6,10043.0,2356.0,22.0,high,Bacterial Infection
+22,95,130/86,118,55,no,sneezing,itchy_eyes,runny_nose,130,86,91.0,93.0,37.3,good,3.7,9782.0,3178.0,12.0,low,Allergy
+20,64,142/61,145,15,yes,sneezing,itchy_eyes,runny_nose,142,61,107.0,93.0,38.3,fair,6.2,11600.0,1205.0,13.0,moderate,Allergy
+78,97,117/62,146,28,no,sneezing,itchy_eyes,runny_nose,117,62,79.0,95.0,37.5,poor,5.2,8836.0,2118.0,12.0,moderate,Allergy
+49,80,122/89,150,7,yes,thirst,dry_mouth,dizziness,122,89,64.0,96.0,37.5,fair,9.8,5048.0,1871.0,12.0,low,Dehydration
+60,66,116/62,117,53,no,thirst,dry_mouth,dizziness,116,62,83.0,97.0,37.7,fair,8.4,5240.0,1307.0,22.0,low,Dehydration
+44,56,147/84,145,28,yes,thirst,dry_mouth,dizziness,147,84,87.0,97.0,36.9,poor,6.9,11026.0,1782.0,16.0,low,Dehydration
+33,52,142/94,154,16,no,fever,cough,muscle_ache,142,94,89.0,98.0,36.6,fair,7.8,8435.0,1231.0,12.0,low,Flu
+52,47,138/70,129,57,yes,fever,cough,muscle_ache,138,70,86.0,93.0,38.3,fair,6.4,8623.0,3050.0,16.0,low,Flu
+76,91,105/91,131,52,no,fever,cough,muscle_ache,105,91,107.0,97.0,36.7,good,10.6,7675.0,1227.0,19.0,high,Flu
+62,54,104/95,194,23,yes,runny_nose,sore_throat,sneezing,104,95,90.0,93.0,35.7,fair,6.8,11409.0,3394.0,13.0,low,Cold
+36,86,133/97,90,22,no,runny_nose,sore_throat,sneezing,133,97,92.0,96.0,37.4,fair,5.6,7818.0,1729.0,14.0,high,Cold
+28,79,140/69,72,59,yes,runny_nose,sore_throat,sneezing,140,69,74.0,93.0,38.1,good,7.6,7449.0,1876.0,15.0,high,Cold
+77,93,102/92,134,18,no,headache,nausea,sensitivity_light,102,92,83.0,95.0,38.4,poor,5.8,4388.0,2909.0,23.0,high,Headache
+64,51,135/94,174,33,yes,headache,nausea,sensitivity_light,135,94,66.0,97.0,37.2,fair,7.6,4949.0,2354.0,21.0,high,Headache
+58,58,111/70,127,20,no,headache,nausea,sensitivity_light,111,70,96.0,93.0,36.3,poor,7.1,6394.0,2801.0,19.0,high,Headache
+60,70,126/89,80,30,yes,chest_pain,fatigue,nosebleed,126,89,80.0,96.2,36.7,fair,6.8,8200.0,1403.0,20.0,high,Hypertension
+49,107,103/62,99,42,yes,headache,dizziness,blurred_vision,103,62,82.0,93.6,36.7,good,7.8,11966.0,2166.0,22.0,low,Hypertension
+53,61,125/72,100,58,no,headache,dizziness,blurred_vision,125,72,83.0,94.3,38.6,good,5.9,4693.0,3347.0,15.0,high,Hypertension
+42,95,152/77,188,7,no,no_symptoms,routine_screening,fatigue,152,77,68.0,92.7,36.4,poor,5.7,10401.0,2631.0,12.0,low,Hyperlipidemia
+70,87,139/68,117,52,no,no_symptoms,routine_screening,fatigue,139,68,73.0,96.8,36.2,poor,8.9,11062.0,2851.0,20.0,high,Hyperlipidemia
+73,56,148/93,103,7,no,xanthomas,chest_pain,leg_cramps,148,93,95.0,92.4,36.2,poor,6.4,6182.0,1329.0,19.0,low,Hyperlipidemia
+72,52,111/61,165,9,no,sore_throat,cough,hoarseness,111,61,75.0,93.2,36.3,good,7.5,10912.0,2192.0,20.0,moderate,GERD
+37,80,128/85,100,45,yes,sore_throat,cough,hoarseness,128,85,67.0,94.6,36.9,poor,7.1,5695.0,1229.0,16.0,moderate,GERD
+85,78,121/85,120,42,no,sore_throat,cough,hoarseness,121,85,80.0,95.1,36.1,good,6.9,6228.0,2981.0,23.0,low,GERD
+40,68,140/61,181,11,no,chest_tightness,fatigue,night_cough,140,61,79.0,94.7,39.0,good,6.0,10756.0,3130.0,13.0,moderate,Asthma
+18,61,111/68,135,18,no,wheezing,shortness_breath,cough,111,68,85.0,92.0,37.4,good,5.4,3230.0,3046.0,22.0,high,Asthma
+85,53,144/98,92,20,yes,wheezing,shortness_breath,cough,144,98,69.0,92.1,36.8,fair,8.3,8404.0,1588.0,17.0,high,Asthma
+61,72,126/87,143,55,no,fatigue,weight_gain,cold_intolerance,126,87,75.0,95.3,39.0,poor,5.0,4375.0,2495.0,15.0,low,Hypothyroidism
+28,73,143/68,177,31,no,fatigue,weight_gain,cold_intolerance,143,68,79.0,97.2,37.5,poor,7.3,2198.0,2760.0,24.0,moderate,Hypothyroidism
+83,100,141/88,120,22,yes,dry_skin,hair_loss,constipation,141,88,80.0,99.2,37.2,poor,7.8,4912.0,3236.0,12.0,high,Hypothyroidism
+65,90,149/91,168,58,no,limited_mobility,crepitus,pain_walking,149,91,100.0,94.1,37.6,fair,8.4,5060.0,1476.0,23.0,high,Osteoarthritis
+49,96,117/75,132,30,no,limited_mobility,crepitus,pain_walking,117,75,96.0,94.6,37.8,fair,7.0,5626.0,1817.0,21.0,low,Osteoarthritis
+40,78,143/69,159,12,yes,joint_pain,stiffness,swelling,143,69,109.0,97.5,37.0,poor,8.3,1178.0,1155.0,13.0,low,Osteoarthritis
+58,72,101/60,101,7,no,sadness,fatigue,sleep_disturbance,101,60,90.0,97.7,38.3,fair,8.4,11394.0,1612.0,24.0,low,Depression
+84,62,134/78,89,17,yes,loss_interest,weight_change,anxiety,134,78,96.0,98.7,38.4,poor,6.8,7501.0,3466.0,14.0,high,Depression
+39,88,128/83,131,41,no,sadness,fatigue,sleep_disturbance,128,83,100.0,95.2,38.1,poor,5.1,5298.0,1525.0,22.0,moderate,Depression
+38,89,159/95,136,50,no,runny_nose,cough,fever,159,95,67.0,92.6,36.8,fair,6.3,6412.0,3425.0,21.0,high,Sinusitis
+69,71,133/62,107,44,yes,facial_pain,nasal_congestion,headache,133,62,71.0,96.1,36.1,fair,8.0,8215.0,1427.0,17.0,low,Sinusitis
+85,45,108/62,190,37,yes,runny_nose,cough,fever,108,62,64.0,95.6,37.1,poor,6.3,11684.0,3393.0,15.0,high,Sinusitis
+80,75,108/73,193,31,yes,fever,cough,loss_smell,108,73,101.0,99.3,38.8,poor,8.7,10540.0,1258.0,22.0,high,COVID-19 Exposure
+59,58,115/97,75,29,no,fever,cough,loss_smell,115,97,88.0,98.9,36.2,poor,6.6,9981.0,1809.0,17.0,high,COVID-19 Exposure
+21,53,156/72,98,38,no,fever,cough,loss_smell,156,72,90.0,97.0,36.1,good,6.0,7044.0,1431.0,15.0,low,COVID-19 Exposure
+22,84,119/75,93,60,yes,depression,hair_loss,frequent_infection,119,75,87.0,99.1,36.6,fair,8.0,9273.0,2202.0,21.0,high,Vitamin D Deficiency
+41,87,143/62,137,10,yes,fatigue,bone_pain,muscle_weakness,143,62,79.0,95.9,37.1,good,6.7,7269.0,2588.0,13.0,low,Vitamin D Deficiency
+79,100,116/97,112,35,yes,depression,hair_loss,frequent_infection,116,97,97.0,98.0,37.4,poor,6.5,6784.0,1907.0,17.0,moderate,Vitamin D Deficiency
+73,70,132/75,195,47,yes,respiratory_distress,confusion,seizures,132,75,104.0,96.5,38.1,good,6.1,6686.0,2547.0,19.0,high,Nipah Virus
+37,101,127/60,133,25,yes,respiratory_distress,confusion,seizures,127,60,90.0,92.2,39.0,poor,6.7,7487.0,3031.0,22.0,low,Nipah Virus
+59,67,102/98,190,13,no,respiratory_distress,confusion,seizures,102,98,74.0,95.9,37.4,good,6.7,6241.0,1763.0,20.0,moderate,Nipah Virus
+20,87,131/76,118,56,yes,watery_diarrhea,vomiting,dehydration,131,76,80.0,92.4,38.7,good,7.3,1800.0,2181.0,19.0,moderate,Cholera
+70,94,129/90,195,39,no,watery_diarrhea,vomiting,dehydration,129,90,60.0,94.7,39.0,good,7.0,2669.0,2092.0,23.0,moderate,Cholera
+46,86,134/95,141,31,no,watery_diarrhea,vomiting,dehydration,134,95,65.0,99.8,36.2,poor,6.0,10377.0,1441.0,23.0,low,Cholera
+80,83,118/68,153,56,no,fever,rash,cough,118,68,109.0,93.2,37.9,good,6.7,9109.0,1474.0,17.0,moderate,Measles
+60,62,155/85,110,39,yes,runny_nose,conjunctivitis,koplik_spots,155,85,68.0,96.0,38.4,fair,6.2,9570.0,3267.0,21.0,high,Measles
+76,102,149/72,113,11,yes,runny_nose,conjunctivitis,koplik_spots,149,72,62.0,96.0,37.4,good,5.0,10206.0,1269.0,18.0,low,Measles
+64,65,158/85,123,18,no,muscle_ache,shortness_breath,diarrhea,158,85,96.0,97.4,36.4,fair,5.8,8252.0,2483.0,12.0,moderate,Avian Influenza
+66,48,160/78,138,19,no,muscle_ache,shortness_breath,diarrhea,160,78,92.0,92.0,38.4,poor,6.2,11414.0,1170.0,15.0,moderate,Avian Influenza
+74,106,145/74,93,52,yes,muscle_ache,shortness_breath,diarrhea,145,74,67.0,93.8,36.0,good,7.8,1091.0,1719.0,19.0,high,Avian Influenza

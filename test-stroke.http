@@ -1,0 +1,24 @@
+### Test Stroke Symptoms - Should predict Stroke, not Meningitis
+POST http://localhost:5051/api/v2/symptoms/analyze
+Content-Type: application/json
+
+{
+  "age": 35,
+  "symptoms": [
+    {
+      "name": "slurred speech",
+      "severity": "mild",
+      "duration": 4
+    },
+    {
+      "name": "paralysis",
+      "severity": "severe", 
+      "duration": 2
+    },
+    {
+      "name": "confusion",
+      "severity": "moderate",
+      "duration": 4
+    }
+  ]
+}

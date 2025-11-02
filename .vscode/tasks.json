@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Medical Diagnosis API",
+			"type": "shell",
+			"command": "dotnet build MedicalDiagnosisAPI.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Run Medical Diagnosis API",
+			"type": "shell",
+			"command": "dotnet run --project MedicalDiagnosisAPI.csproj",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}

@@ -1,0 +1,195 @@
+### Medical Diagnosis API Test Requests
+
+@baseUrl = https://localhost:7134
+@baseUrlHttp = http://localhost:5134
+
+### Get API Status
+GET {{baseUrl}}/api/diagnosis/status
+
+### Get Available Symptoms
+GET {{baseUrl}}/api/diagnosis/symptoms
+
+### Predict Disease - Cardiovascular Example
+POST {{baseUrl}}/api/diagnosis/predict
+Content-Type: application/json
+
+{
+  "age": 55,
+  "weight": 85,
+  "glucoseLevel": 140,
+  "insulinLevel": 30,
+  "smokingHabit": "yes",
+  "symptoms": ["chest_pain", "shortness_breath", "fatigue"],
+  "systolicBP": 150,
+  "diastolicBP": 95,
+  "heartRate": 90,
+  "spO2": 95,
+  "temperature": 36.8,
+  "sleepQuality": "fair",
+  "sleepDuration": 6.5,
+  "activitySteps": 4000,
+  "activityCalories": 1800,
+  "respiratoryRate": 18,
+  "stressLevel": "high"
+}
+
+### Test 1: Diabetes-like symptoms (should predict Diabetes)
+POST {{baseUrlHttp}}/api/diagnosis/predict
+Content-Type: application/json
+
+{
+  "age": 42,
+  "weight": 78,
+  "glucoseLevel": 200,
+  "insulinLevel": 30,
+  "smokingHabit": "no",
+  "symptoms": ["blurred_vision", "frequent_urination", "thirst"],
+  "systolicBP": 125,
+  "diastolicBP": 80,
+  "heartRate": 75,
+  "spO2": 99,
+  "temperature": 36.5,
+  "sleepQuality": "good",
+  "sleepDuration": 7.0,
+  "activitySteps": 6000,
+  "activityCalories": 2200,
+  "respiratoryRate": 16,
+  "stressLevel": "moderate"
+}
+
+### Test 2: Parkinson's-like symptoms (should predict Parkinson's)
+POST {{baseUrlHttp}}/api/diagnosis/predict
+Content-Type: application/json
+
+{
+  "age": 65,
+  "weight": 75,
+  "glucoseLevel": 100,
+  "insulinLevel": 15,
+  "smokingHabit": "no",
+  "symptoms": ["tremors", "stiff_muscles", "speech_issue"],
+  "systolicBP": 140,
+  "diastolicBP": 85,
+  "heartRate": 70,
+  "spO2": 97,
+  "temperature": 36.6,
+  "sleepQuality": "good",
+  "sleepDuration": 7.8,
+  "activitySteps": 3000,
+  "activityCalories": 1800,
+  "respiratoryRate": 15,
+  "stressLevel": "low"
+}
+
+### Test 3: Migraine-like symptoms (should predict Migraine)
+POST {{baseUrlHttp}}/api/diagnosis/predict
+Content-Type: application/json
+
+{
+  "age": 35,
+  "weight": 65,
+  "glucoseLevel": 95,
+  "insulinLevel": 12,
+  "smokingHabit": "no",
+  "symptoms": ["headache", "nausea", "sensitivity_light"],
+  "systolicBP": 130,
+  "diastolicBP": 82,
+  "heartRate": 85,
+  "spO2": 99,
+  "temperature": 36.8,
+  "sleepQuality": "fair",
+  "sleepDuration": 6.5,
+  "activitySteps": 7000,
+  "activityCalories": 2100,
+  "respiratoryRate": 16,
+  "stressLevel": "moderate"
+}
+
+### Train ML Model
+POST {{baseUrl}}/api/diagnosis/train
+
+### =====================================
+### FRONTEND-OPTIMIZED ENDPOINTS (V2)
+### =====================================
+
+### Health Check
+GET {{baseUrl}}/api/v2/symptoms/health
+
+### Get Symptom Categories (for UI organization)
+GET {{baseUrl}}/api/v2/symptoms/categories
+
+### Search Symptoms (for autocomplete)
+GET {{baseUrl}}/api/v2/symptoms/search?query=head
+
+### Simple Symptom Analysis (optimized for frontend)
+POST {{baseUrl}}/api/v2/symptoms/analyze
+Content-Type: application/json
+
+{
+  "age": 35,
+  "gender": "female",
+  "symptoms": [
+    {
+      "name": "headache",
+      "severity": "moderate",
+      "duration": 3
+    },
+    {
+      "name": "nausea",
+      "severity": "mild",
+      "duration": 2
+    }
+  ],
+  "additionalInfo": "Started after stressful work week"
+}
+
+### Triage Assessment (urgency evaluation)
+POST {{baseUrl}}/api/v2/symptoms/triage
+Content-Type: application/json
+
+{
+  "age": 45,
+  "gender": "male",
+  "symptoms": [
+    {
+      "name": "chest_pain",
+      "severity": "severe",
+      "duration": 1
+    },
+    {
+      "name": "shortness_breath",
+      "severity": "moderate",
+      "duration": 1
+    }
+  ]
+}
+
+### Comprehensive Health Assessment
+POST {{baseUrl}}/api/v2/symptoms/comprehensive
+Content-Type: application/json
+
+{
+  "age": 28,
+  "gender": "female",
+  "weight": 65,
+  "height": 165,
+  "symptoms": [
+    {
+      "name": "fatigue",
+      "severity": "moderate",
+      "duration": 14
+    },
+    {
+      "name": "joint_pain",
+      "severity": "mild",
+      "duration": 7
+    }
+  ],
+  "existingConditions": ["hypothyroidism"],
+  "medications": ["levothyroxine"],
+  "smokingStatus": "never",
+  "activityLevel": "moderate",
+  "familyHistory": "Autoimmune conditions in family"
+}
+
+###

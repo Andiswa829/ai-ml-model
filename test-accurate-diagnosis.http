@@ -1,0 +1,63 @@
+### Test Diabetes Symptoms - Should predict Diabetes
+POST http://localhost:5051/api/v2/symptoms/analyze
+Content-Type: application/json
+
+{
+  "age": 35,
+  "gender": "female",
+  "symptoms": [
+    {
+      "name": "thirst",
+      "severity": "mild",
+      "duration": 4
+    },
+    {
+      "name": "dry mouth",
+      "severity": "severe", 
+      "duration": 2
+    },
+    {
+      "name": "frequent urination",
+      "severity": "moderate",
+      "duration": 4
+    }
+  ],
+  "additionalInfo": "string"
+}
+
+### Test Stroke Symptoms - Should predict Stroke  
+POST http://localhost:5051/api/v2/symptoms/analyze
+Content-Type: application/json
+
+{
+  "age": 65,
+  "symptoms": [
+    {
+      "name": "slurred speech",
+      "severity": "severe",
+      "duration": 1
+    },
+    {
+      "name": "paralysis",
+      "severity": "severe", 
+      "duration": 1
+    },
+    {
+      "name": "confusion",
+      "severity": "moderate",
+      "duration": 2
+    }
+  ]
+}
+
+### Get Predefined Questions for Enhanced Diagnosis
+GET http://localhost:5051/api/v2/symptoms/questions
+
+### Get Follow-up Questions for Diabetes
+POST http://localhost:5051/api/v2/symptoms/follow-up-questions
+Content-Type: application/json
+
+{
+  "primaryDiagnosis": "Diabetes",
+  "symptoms": ["thirst", "frequent urination", "blurred vision"]
+}
